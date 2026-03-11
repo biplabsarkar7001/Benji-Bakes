@@ -1,5 +1,9 @@
 /*Global CSS*/
-@import url(../assets/fonts/Gordita\ Regular.otf);
+@font-face {
+  font-family: "Gordita";
+  src: url("../assets/fonts/Gordita-Regular.otf") format("opentype");
+  font-style: normal;
+}
 
 :root {
   --gradient-start: #a8c4e0;
@@ -18,7 +22,7 @@
   --link-hover: #1a2a3a;
   --accent-pink: #e06fa0;
   --border-color: #e5e5e5;
-  --gordita: url(../assets/fonts/Gordita\ Regular.otf);
+  --gordita: url("../assets/fonts/Gordita\ Regular.otf") sans-serif;
 }
 
 * {
@@ -30,7 +34,7 @@
 body {
   margin: 0;
   overflow: hidden;
-  font-family: var(--gordita);
+  font-family: "Gordita", sans-serif;
 }
 a {
   text-decoration: none;
@@ -41,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--gordita);
+  font-family: "Gordita", sans-serif;
 }
 
 ul {
@@ -65,7 +69,7 @@ ul {
 }
 
 .benji-navbar .navbar-brand {
-  font-family: var(--gordita);
+  font-family: "Gordita", sans-serif;
   font-weight: 600;
   font-size: 22px;
   letter-spacing: 2px;
@@ -79,7 +83,7 @@ ul {
 }
 
 .benji-navbar .nav-link {
-  font-family: var(--gordita);
+  font-family: "Gordita", sans-serif;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
@@ -129,7 +133,7 @@ ul {
   right: -8px;
   background: var(--cart-badge-bg);
   color: #fff;
-  font-family: var(--gordita);
+  font-family: "Gordita", sans-serif;
   font-size: 10px;
   font-weight: 500;
   width: 16px;
@@ -207,7 +211,7 @@ ul {
 
 /* ─── Get In Touch Column ─── */
 .footer-col-title {
-  font-family: var(--gordita);
+  font-family: "Gordita", sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: var(--brand-color);
@@ -235,7 +239,7 @@ ul {
   border: none;
   outline: none;
   background: transparent;
-  font-family: var(--fonts);
+  font-family: "Gordita", sans-serif;
   font-size: 13px;
   color: var(--text-color);
   width: 100%;
