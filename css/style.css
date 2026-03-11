@@ -175,7 +175,6 @@ ul {
 /*Navbar Section End*/
 
 /*Footer Section Start*/
-
 .footer-container {
   max-width: 1250px;
   margin-top: 50px;
@@ -188,7 +187,7 @@ ul {
   overflow: hidden;
 }
 
-/* ─── Decorative Left Leaf SVG ─── */
+
 .footer-leaf {
   position: absolute;
   left: -10px;
@@ -198,7 +197,6 @@ ul {
   pointer-events: none;
 }
 
-/* ─── Decorative Cookie Image ─── */
 .footer-cookie-img {
   position: absolute;
   right: 0;
@@ -209,7 +207,6 @@ ul {
   border-radius: 0 0 0 20px;
 }
 
-/* ─── Get In Touch Column ─── */
 .footer-col-title {
   font-family: "Gordita", sans-serif;
   font-size: 18px;
@@ -308,14 +305,12 @@ ul {
   transform: translateY(-2px);
 }
 
-/* ─── Divider ─── */
 .footer-divider {
   border: none;
   border-top: 1px solid var(--border-color);
   margin: 40px 0 0 0;
 }
 
-/* ─── Footer Bottom ─── */
 .footer-bottom {
   background: var(--footer-bottom-bg);
   padding: 16px 0;
@@ -344,7 +339,6 @@ ul {
   color: #ccc;
 }
 
-/* ─── Payment Icons ─── */
 .payment-icons {
   display: flex;
   align-items: center;
