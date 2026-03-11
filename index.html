@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benji Bakes</title>
+
+    <!--Bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!--Bootstrap Icons link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Swiper link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--Nav-bar Section Start-->
+    <nav class="benji-navbar navbar navbar-expand-lg w-100">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">BENJI BAKES</a>
+        <div class="d-flex align-items-center gap-2 d-lg-none ms-auto">
+          <div class="cart-wrapper">
+            <svg
+              class="bi bi-cart-fill"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-cart-dash-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1"
+              />
+            </svg>
+            <span class="cart-badge">0</span>
+          </div>
+          <button
+            class="benji-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#benjiNavMenu"
+            aria-controls="benjiNavMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="toggler-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
+
+        <!-- Collapsible Menu -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="benjiNavMenu"
+        >
+          <ul class="navbar-nav align-items-lg-center gap-lg-1">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Component</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Checkout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <!-- Cart visible on desktop inside nav -->
+            <li class="nav-item d-none d-lg-flex align-items-center">
+              <div class="cart-wrapper">
+                <svg
+                  class="bi bi-cart-fill"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart-dash-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1"
+                  />
+                </svg>
+                <span class="cart-badge">0</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Nav-bar Section End-->
+
+    <!--Banner Section Start-->
+
+    <!--Banner Section Section End-->
+
+    <!--Footer Section Start-->
+    <footer class="benji-footer">
+      <!--Leaf(left)-->
+      <!-- <svg
+        class="footer-leaf"
+        viewBox="0 0 120 320"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M60 300 C60 300 10 220 20 150 C30 80 80 40 90 10"
+          stroke="#b8d4c0"
+          stroke-width="2"
+          fill="none"
+        />
+        <path
+          d="M60 280 C40 260 15 200 25 160"
+          stroke="#b8d4c0"
+          stroke-width="1.5"
+          fill="none"
+        />
+        <path
+          d="M20 150 C50 130 85 145 90 10"
+          stroke="#b8d4c0"
+          stroke-width="1.2"
+          fill="none"
+          opacity="0.6"
+        />
+        <ellipse
+          cx="35"
+          cy="180"
+          rx="22"
+          ry="12"
+          transform="rotate(-30 35 180)"
+          stroke="#b8d4c0"
+          stroke-width="1"
+          fill="none"
+          opacity="0.5"
+        />
+        <ellipse
+          cx="50"
+          cy="130"
+          rx="20"
+          ry="11"
+          transform="rotate(-20 50 130)"
+          stroke="#b8d4c0"
+          stroke-width="1"
+          fill="none"
+          opacity="0.5"
+        />
+        <ellipse
+          cx="65"
+          cy="80"
+          rx="18"
+          ry="10"
+          transform="rotate(-10 65 80)"
+          stroke="#b8d4c0"
+          stroke-width="1"
+          fill="none"
+          opacity="0.4"
+        />
+        <ellipse
+          cx="75"
+          cy="40"
+          rx="15"
+          ry="8"
+          transform="rotate(5 75 40)"
+          stroke="#b8d4c0"
+          stroke-width="1"
+          fill="none"
+          opacity="0.35"
+        />
+      </svg> -->
+      <!-- Cookie(right)-->
+      <img
+        class="footer-cookie-img"
+        src=""
+        alt="Chocolate chip cookie"
+      />
+      <div class="container footer-container">
+        <div class="row g-4 pb-4">
+          <!-- Col 1: Get In Touch -->
+          <div class="col-12 col-sm-6 col-lg-4" style="padding-left: 60px">
+            <h5 class="footer-col-title">Get In Touch</h5>
+            <p class="footer-desc">
+              10% off your first test and be the first to know about our Health
+              Check, Fertility
+            </p>
+            <div class="footer-email-form">
+              <input type="email" placeholder="Enter email id" />
+              <button type="submit" aria-label="Submit email">
+                <!-- Pink send/arrow icon -->
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+                </svg>
+              </button>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="footer-social">
+              <a href="https://www.facebook.com/benjibakes" aria-label="Facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="https://twitter.com/benjibakes" aria-label="Twitter"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="https://www.instagram.com/benjibakes/" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Col 2: Quick Link 1 -->
+          <div class="col-6 col-sm-3 col-lg-2 offset-lg-2">
+            <h5 class="footer-col-title">Quick Link</h5>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Component</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">Product page</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Quick Link 2 -->
+          <div class="col-6 col-sm-3 col-lg-2">
+            <h5 class="footer-col-title">Quick Link</h5>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Component</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">Product page</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- /row -->
+
+        <hr class="footer-divider" />
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="container footer-container">
+          <div class="footer-bottom-inner">
+            <!-- Copyright -->
+            <div class="footer-copy">
+              ©2021 Benji Bakes. All Rights Reserved.
+              <span class="sep">|</span>
+              <a href="#">Terms &amp; Conditions</a>
+              <span class="sep">|</span>
+              <a href="#">Privacy &amp; Security</a>
+            </div>
+
+            <!-- Payment Icons -->
+            <div class="payment-icons">
+              <span class="pay-icon visa">VISA</span>
+              <span class="pay-icon mastercard">MC</span>
+              <span class="pay-icon discover">DISC</span>
+              <span class="pay-icon amex">AMEX</span>
+              <span class="pay-icon paypal">PayPal</span>
+              <span class="pay-icon amazon">amazon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Footer Section End-->
+
+    <!--Java Script Start-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!--JS Link -->
+    <script src="./js/script.js"></script>
+    <!--Java Script End-->
+  </body>
+</html>
