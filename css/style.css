@@ -227,7 +227,7 @@ ul {
   margin-bottom: 20px;
 }
 
-/* ─── Email Input ─── */
+
 .footer-email-form {
   display: flex;
   align-items: center;
@@ -266,7 +266,7 @@ ul {
   height: 18px;
 }
 
-/* ─── Quick Links ─── */
+
 .footer-links {
   list-style: none;
   padding: 0;
@@ -289,7 +289,6 @@ ul {
   padding-left: 4px;
 }
 
-/* ─── Social Icons ─── */
 .footer-social {
   display: flex;
   align-items: center;
