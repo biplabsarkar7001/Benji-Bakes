@@ -176,6 +176,111 @@ ul {
 /*Banner Section End*/
 
 /*Goal Section Start*/
+.goal-section {
+  background: #ffffff;
+  padding: 70px 0 60px;
+}
+.goal-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.goal-header-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 56px;
+}
+
+.goal-title-block {
+  flex: 0 0 auto;
+  max-width: 300px;
+}
+
+.goal-title {
+  font-family: "Gordita", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  color: var(--brand-color);
+  line-height: 1.25;
+  margin-bottom: 0;
+}
+
+.goal-title strong {
+  font-family: "Gordita", sans-serif;
+  font-weight: 700;
+  display: block;
+}
+
+.goal-subtitle {
+  font-family: "Gordita", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 1.8;
+  max-width: 380px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.goal-cards-row {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.goal-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 16px;
+}
+.goal-card:hover {
+  border-color: #e06fa0;
+  box-shadow:
+    0 0 8px rgba(224, 111, 160, 0.5),
+    0 0 20px rgba(224, 111, 160, 0.25);
+}
+
+.goal-icon-wrap {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition:
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+/* .goal-icon-wrap:hover {
+  border-color: #e06fa0;
+  box-shadow:
+    0 0 20px rgba(224, 111, 160, 0.5),
+    0 0 20px rgba(224, 111, 160, 0.25);
+} */
+
+.goal-icon-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.goal-label {
+  font-family: "Gordita", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--brand-color);
+  line-height: 1.4;
+  margin: 0;
+}
 /*Goal Section End*/
 
 /*About Section Start*/
@@ -912,7 +1017,21 @@ ul {
 
   /*Banner Section Start*/
   /*Banner Section End*/
+
   /*Goal Section Start*/
+  .goal-section {
+    padding: 60px 0 50px;
+  }
+  .goal-title {
+    font-size: 30px;
+  }
+  .goal-icon-wrap {
+    width: 88px;
+    height: 88px;
+  }
+  .goal-header-row {
+    margin-bottom: 46px;
+  }
   /*Goal Section End*/
   /*About Section Start*/
   .about-section {
@@ -1036,8 +1155,33 @@ ul {
 
   /*Banner Section Start*/
   /*Banner Section End*/
+
   /*Goal Section Start*/
+  .goal-section {
+    padding: 50px 0 44px;
+  }
+  .goal-title {
+    font-size: 26px;
+  }
+  .goal-subtitle {
+    font-size: 13.5px;
+  }
+  .goal-icon-wrap {
+    width: 78px;
+    height: 78px;
+  }
+  .goal-label {
+    font-size: 13px;
+  }
+  .goal-header-row {
+    gap: 24px;
+    margin-bottom: 38px;
+  }
+  .goal-cards-row {
+    gap: 16px;
+  }
   /*Goal Section End*/
+
   /*About Section Start*/
   .about-section {
     padding: 50px 0;
@@ -1176,8 +1320,40 @@ ul {
 
   /*Banner Section Start*/
   /*Banner Section End*/
+
   /*Goal Section Start*/
+  .goal-section {
+    padding: 44px 0 36px;
+  }
+  .goal-header-row {
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+  .goal-title-block {
+    max-width: 100%;
+  }
+  .goal-title {
+    font-size: 24px;
+  }
+  .goal-subtitle {
+    font-size: 13px;
+    max-width: 100%;
+  }
+  .goal-cards-row {
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  .goal-card {
+    flex: 0 0 calc(50% - 14px);
+    align-items: flex-start;
+  }
+  .goal-icon-wrap {
+    width: 80px;
+    height: 80px;
+  }
   /*Goal Section End*/
+
   /*About Section Start*/
   .about-section {
     padding: 44px 0 36px;
@@ -1362,8 +1538,32 @@ ul {
 
   /*Banner Section Start*/
   /*Banner Section End*/
+
   /*Goal Section Start*/
+  .goal-section {
+    padding: 36px 0 28px;
+  }
+  .goal-title {
+    font-size: 22px;
+  }
+  .goal-subtitle {
+    font-size: 12.5px;
+  }
+  .goal-cards-row {
+    gap: 22px;
+  }
+  .goal-card {
+    flex: 0 0 calc(50% - 11px);
+  }
+  .goal-icon-wrap {
+    width: 70px;
+    height: 70px;
+  }
+  .goal-label {
+    font-size: 12.5px;
+  }
   /*Goal Section End*/
+
   /*About Section Start*/
   .about-section {
     padding: 36px 0 30px;
@@ -1546,8 +1746,35 @@ ul {
 
   /*Banner Section Start*/
   /*Banner Section End*/
+
   /*Goal Section Start*/
+  .goal-section {
+    padding: 28px 0 22px;
+  }
+  .goal-title {
+    font-size: 19px;
+  }
+  .goal-subtitle {
+    font-size: 12px;
+  }
+  .goal-header-row {
+    margin-bottom: 24px;
+  }
+  .goal-cards-row {
+    gap: 16px;
+  }
+  .goal-card {
+    flex: 0 0 calc(50% - 8px);
+  }
+  .goal-icon-wrap {
+    width: 60px;
+    height: 60px;
+  }
+  .goal-label {
+    font-size: 12px;
+  }
   /*Goal Section End*/
+
   /*About Section Start*/
   .about-section {
     padding: 28px 0 24px;
