@@ -57,7 +57,6 @@ ul {
 }
 
 /*Navbar Section Start*/
-
 .benji-navbar {
   background: linear-gradient(to right, #8da3fa, #9ec5f8, #9bdaf7);
   backdrop-filter: blur(8px);
@@ -173,6 +172,97 @@ ul {
 }
 /*Navbar Section End*/
 
+/*Banner Section Start*/
+/*Banner Section End*/
+
+/*Goal Section Start*/
+/*Goal Section End*/
+
+/*About Section Start*/
+.about-section {
+  background: linear-gradient(135deg, #8da3fa 0%, #9ec5f8 50%, #9bdaf7 100%);
+  min-height: 420px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+  margin-top: 50px;
+}
+
+/* .about-circle-deco {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  pointer-events: none;
+  z-index: 0;
+} */
+
+.about-leaf-deco {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 140px;
+  opacity: 0.45;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/*image */
+.about-img-col {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.about-dog-img {
+  width: 100%;
+  max-width: 380px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.08));
+  position: relative;
+  z-index: 1;
+}
+
+/*Content */
+.about-content-col {
+  position: relative;
+  z-index: 1;
+  padding: 20px 0 20px 20px;
+}
+
+.about-title {
+  font-family: "Gordita", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--brand-color);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.about-desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--brand-color);
+  line-height: 1.85;
+  opacity: 0.85;
+  margin-bottom: 18px;
+  max-width: 460px;
+}
+
+.about-desc:last-child {
+  margin-bottom: 0;
+}
+/*About Section End*/
+
 /*Product Section Start*/
 .products-section {
   background: #ffffff;
@@ -198,7 +288,7 @@ ul {
 }
 
 .products-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Gordita", sans-serif;
   font-size: 38px;
   font-weight: 400;
   color: var(--brand-color);
@@ -207,7 +297,7 @@ ul {
 }
 
 .products-title strong {
-  font-family: "Playfair Display", serif;
+  font-family: "Gordita", sans-serif;
   font-weight: 700;
   font-style: italic;
   color: var(--brand-color);
@@ -247,7 +337,7 @@ ul {
   width: 380px;
   height: 380px;
   border-radius: 50%;
-  background: #EDE4F5;
+  background: #ede4f5;
   position: relative;
   display: flex;
   align-items: center;
@@ -289,7 +379,7 @@ ul {
 }
 
 .product-name {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Gordita", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: var(--brand-color);
@@ -391,7 +481,7 @@ ul {
 }
 
 .news-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Gordita", sans-serif;
   font-size: 36px;
   font-weight: 400;
   color: var(--brand-color);
@@ -400,7 +490,7 @@ ul {
 }
 
 .news-title strong {
-  font-family: "Playfair Display", serif;
+  font-family: "Gordita", sans-serif;
   font-weight: 700;
   font-style: italic;
   color: var(--brand-color);
@@ -449,7 +539,7 @@ ul {
   z-index: 1;
 }
 .news-card-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Gordita", sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: var(--brand-color);
@@ -516,7 +606,7 @@ ul {
 }
 
 .promo-headline {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Gordita", sans-serif;
   font-size: 38px;
   font-weight: 400;
   color: var(--brand-color);
@@ -525,7 +615,7 @@ ul {
 }
 
 .promo-headline strong {
-  font-family: "Playfair Display", serif;
+  font-family: "Gordita", sans-serif;
   font-weight: 700;
   font-style: italic;
   display: block;
@@ -537,7 +627,7 @@ ul {
   display: inline-block;
   background: var(--accent-pink);
   color: #fff;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Gordita", sans-serif;
   font-size: 30px;
   font-weight: 700;
   padding: 2px 12px;
@@ -560,7 +650,7 @@ ul {
   display: inline-block;
   background: var(--accent-pink);
   color: #fff;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Gordita", sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -820,6 +910,31 @@ ul {
   }
   /*Navbar Section End*/
 
+  /*Banner Section Start*/
+  /*Banner Section End*/
+  /*Goal Section Start*/
+  /*Goal Section End*/
+  /*About Section Start*/
+  .about-section {
+    padding: 55px 0;
+    min-height: 380px;
+  }
+  .about-title {
+    font-size: 34px;
+  }
+  .about-dog-img {
+    max-width: 340px;
+  }
+  .about-circle-deco {
+    width: 320px;
+    height: 320px;
+    left: 14%;
+  }
+  .about-leaf-deco {
+    width: 120px;
+  }
+  /*About Section End*/
+
   /*Product Section Start*/
   .products-section {
     padding: 70px 0 50px;
@@ -848,17 +963,17 @@ ul {
 
   /*News Section Start*/
   .news-section {
-        padding: 70px 0 60px;
-      }
-      .news-title {
-        font-size: 32px;
-      }
-      .news-subtitle {
-        font-size: 13.5px;
-      }
-      .news-header {
-        margin-bottom: 42px;
-      }
+    padding: 70px 0 60px;
+  }
+  .news-title {
+    font-size: 32px;
+  }
+  .news-subtitle {
+    font-size: 13.5px;
+  }
+  .news-header {
+    margin-bottom: 42px;
+  }
   /*News Section End*/
 
   /*Promotion Section Start*/
@@ -919,6 +1034,38 @@ ul {
 
   /*Navbar Section End*/
 
+  /*Banner Section Start*/
+  /*Banner Section End*/
+  /*Goal Section Start*/
+  /*Goal Section End*/
+  /*About Section Start*/
+  .about-section {
+    padding: 50px 0;
+    min-height: 340px;
+  }
+  .about-title {
+    font-size: 30px;
+  }
+  .about-desc {
+    font-size: 13.5px;
+    max-width: 100%;
+  }
+  .about-dog-img {
+    max-width: 290px;
+  }
+  .about-circle-deco {
+    width: 270px;
+    height: 270px;
+    left: 13%;
+  }
+  .about-leaf-deco {
+    width: 100px;
+  }
+  .about-content-col {
+    padding-left: 12px;
+  }
+  /*About Section End*/
+
   /*Product Section Start*/
   .products-section {
     padding: 60px 0 44px;
@@ -953,21 +1100,21 @@ ul {
 
   /*News Section Start*/
   .news-section {
-        padding: 60px 0 50px;
-      }
-      .news-title {
-        font-size: 28px;
-      }
-      .news-subtitle {
-        font-size: 13px;
-        max-width: 400px;
-      }
-      .news-header {
-        margin-bottom: 36px;
-      }
-      .news-card-title {
-        font-size: 15px;
-      }
+    padding: 60px 0 50px;
+  }
+  .news-title {
+    font-size: 28px;
+  }
+  .news-subtitle {
+    font-size: 13px;
+    max-width: 400px;
+  }
+  .news-header {
+    margin-bottom: 36px;
+  }
+  .news-card-title {
+    font-size: 15px;
+  }
   /*News Section End*/
 
   /*Promotion Section Start*/
@@ -1027,6 +1174,45 @@ ul {
   }
   /*Navbar Section End*/
 
+  /*Banner Section Start*/
+  /*Banner Section End*/
+  /*Goal Section Start*/
+  /*Goal Section End*/
+  /*About Section Start*/
+  .about-section {
+    padding: 44px 0 36px;
+    min-height: auto;
+  }
+  .about-title {
+    font-size: 28px;
+    text-align: center;
+  }
+  .about-desc {
+    font-size: 13px;
+    text-align: center;
+    max-width: 100%;
+  }
+  .about-img-col {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .about-dog-img {
+    max-width: 260px;
+  }
+  .about-circle-deco {
+    left: 50%;
+    top: 30%;
+    width: 240px;
+    height: 240px;
+  }
+  .about-content-col {
+    padding: 0 16px;
+  }
+  .about-leaf-deco {
+    width: 85px;
+  }
+  /*About Section End*/
+
   /*Product Section Start*/
   .products-section {
     padding: 50px 0 40px;
@@ -1080,28 +1266,28 @@ ul {
 
   /*News Section Start*/
   .news-section {
-        padding: 50px 0 44px;
-      }
-      .news-title {
-        font-size: 26px;
-      }
-      .news-subtitle {
-        font-size: 13px;
-        max-width: 340px;
-        padding: 0 10px;
-      }
-      .news-header {
-        margin-bottom: 30px;
-      }
-      .news-img-wrapper {
-        margin-bottom: 16px;
-      }
-      .news-card-title {
-        font-size: 14.5px;
-      }
-      .news-card-text {
-        font-size: 12.5px;
-      }
+    padding: 50px 0 44px;
+  }
+  .news-title {
+    font-size: 26px;
+  }
+  .news-subtitle {
+    font-size: 13px;
+    max-width: 340px;
+    padding: 0 10px;
+  }
+  .news-header {
+    margin-bottom: 30px;
+  }
+  .news-img-wrapper {
+    margin-bottom: 16px;
+  }
+  .news-card-title {
+    font-size: 14.5px;
+  }
+  .news-card-text {
+    font-size: 12.5px;
+  }
   /*News Section End*/
 
   /*Promotion Section Start*/
@@ -1174,6 +1360,35 @@ ul {
   }
   /*Navbar Section End*/
 
+  /*Banner Section Start*/
+  /*Banner Section End*/
+  /*Goal Section Start*/
+  /*Goal Section End*/
+  /*About Section Start*/
+  .about-section {
+    padding: 36px 0 30px;
+  }
+  .about-title {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+  .about-desc {
+    font-size: 12.5px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+  }
+  .about-dog-img {
+    max-width: 220px;
+  }
+  .about-circle-deco {
+    width: 200px;
+    height: 200px;
+  }
+  .about-leaf-deco {
+    width: 70px;
+  }
+  /*About Section End*/
+
   /*Product Section Start*/
   .products-section {
     padding: 40px 0 32px;
@@ -1215,30 +1430,30 @@ ul {
 
   /*News Section Start*/
   .news-section {
-        padding: 40px 0 36px;
-      }
-      .news-title {
-        font-size: 22px;
-      }
-      .news-subtitle {
-        font-size: 12.5px;
-        padding: 0 16px;
-      }
-      .news-header {
-        margin-bottom: 26px;
-      }
-      .news-card {
-        margin-bottom: 32px;
-      }
-      .news-card-title {
-        font-size: 14px;
-      }
-      .news-card-text {
-        font-size: 12px;
-      }
-      .news-read-more {
-        font-size: 12.5px;
-      }
+    padding: 40px 0 36px;
+  }
+  .news-title {
+    font-size: 22px;
+  }
+  .news-subtitle {
+    font-size: 12.5px;
+    padding: 0 16px;
+  }
+  .news-header {
+    margin-bottom: 26px;
+  }
+  .news-card {
+    margin-bottom: 32px;
+  }
+  .news-card-title {
+    font-size: 14px;
+  }
+  .news-card-text {
+    font-size: 12px;
+  }
+  .news-read-more {
+    font-size: 12.5px;
+  }
   /*News Section End*/
 
   /*Promotion Section Start*/
@@ -1329,6 +1544,38 @@ ul {
   }
   /*Navbar Section End*/
 
+  /*Banner Section Start*/
+  /*Banner Section End*/
+  /*Goal Section Start*/
+  /*Goal Section End*/
+  /*About Section Start*/
+  .about-section {
+    padding: 28px 0 24px;
+  }
+  .about-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .about-desc {
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
+  .about-dog-img {
+    max-width: 180px;
+  }
+  .about-circle-deco {
+    width: 170px;
+    height: 170px;
+  }
+  .about-leaf-deco {
+    width: 55px;
+  }
+  .about-content-col {
+    padding: 0 10px;
+  }
+  /*About Section End*/
+
   /*Product Section Start*/
   .products-section {
     padding: 32px 0 24px;
@@ -1363,6 +1610,28 @@ ul {
   /*Product Section End*/
 
   /*News Section Start*/
+  .news-section {
+    padding: 32px 0 28px;
+  }
+  .news-title {
+    font-size: 19px;
+  }
+  .news-subtitle {
+    font-size: 12px;
+    padding: 0 8px;
+  }
+  .news-header {
+    margin-bottom: 22px;
+  }
+  .news-card-title {
+    font-size: 13.5px;
+  }
+  .news-card-text {
+    font-size: 11.5px;
+  }
+  .news-read-more {
+    font-size: 12px;
+  }
   /*News Section End*/
 
   /*Promotion Section Start*/
