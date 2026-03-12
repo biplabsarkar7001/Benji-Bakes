@@ -173,6 +173,138 @@ ul {
 /*Navbar Section End*/
 
 /*Banner Section Start*/
+.hero-section {
+  background: linear-gradient(to right, #8da3fa, #9ec5f8, #9bdaf7);
+  min-height: 480px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.hero-circle-tl {
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(2px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-circle-bl {
+  position: absolute;
+  bottom: -40px;
+  left: 60px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  filter: blur(1px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-leaf-deco {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  width: 130px;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-cookies-img {
+  background: rgba(255, 255, 255, 0.15);
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 520px;
+  object-fit: contain;
+  pointer-events: none;
+  z-index: 1;
+  filter: drop-shadow(0 16px 40px rgba(0, 0, 0, 0.1));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 5400px;
+}
+
+.hero-title {
+  font-family: "Gordita", sans-serif;
+  font-size: 76px;
+  font-weight: 400;
+  color: var(--brand-color);
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.hero-title strong {
+  font-family: "Gordita", sans-serif;
+  font-weight: 700;
+  display: block;
+}
+
+.hero-subtitle {
+  font-family: "Gordita", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--brand-color);
+  line-height: 1.8;
+  opacity: 0.8;
+  margin-bottom: 32px;
+  max-width: 520px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background: var(--accent-pink);
+  color: #fff;
+  font-family: "Gordita", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  padding: 11px 52px;
+  border-radius: 50px;
+  border: 2px solid var(--accent-pink);
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition:
+    color 0.35s ease,
+    box-shadow 0.25s ease;
+  box-shadow: 0 4px 18px rgba(224, 111, 160, 0.35);
+}
+.hero-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 50px;
+  z-index: -1;
+  transition: left 0.35s ease;
+}
+.hero-btn:hover::before {
+  left: 0;
+}
+.hero-btn:hover {
+  color: var(--accent-pink);
+  border-color: var(--accent-pink);
+  box-shadow: 0 8px 24px rgba(224, 111, 160, 0.45);
+}
 /*Banner Section End*/
 
 /*Goal Section Start*/
@@ -1016,6 +1148,20 @@ ul {
   /*Navbar Section End*/
 
   /*Banner Section Start*/
+  .hero-section {
+    padding: 55px 0;
+    min-height: 440px;
+  }
+  .hero-title {
+    font-size: 40px;
+  }
+  .hero-cookies-img {
+    width: 440px;
+    right: -10px;
+  }
+  .hero-leaf-deco {
+    width: 110px;
+  }
   /*Banner Section End*/
 
   /*Goal Section Start*/
@@ -1154,6 +1300,28 @@ ul {
   /*Navbar Section End*/
 
   /*Banner Section Start*/
+  .hero-section {
+    padding: 50px 0;
+    min-height: 400px;
+  }
+  .hero-title {
+    font-size: 34px;
+  }
+  .hero-subtitle {
+    font-size: 13.5px;
+    max-width: 300px;
+  }
+  .hero-cookies-img {
+    width: 360px;
+    right: -10px;
+  }
+  .hero-leaf-deco {
+    width: 90px;
+  }
+  .hero-circle-tl {
+    width: 260px;
+    height: 260px;
+  }
   /*Banner Section End*/
 
   /*Goal Section Start*/
@@ -1319,6 +1487,30 @@ ul {
   /*Navbar Section End*/
 
   /*Banner Section Start*/
+  .hero-section {
+    padding: 44px 0;
+    min-height: 360px;
+  }
+  .hero-title {
+    font-size: 28px;
+  }
+  .hero-subtitle {
+    font-size: 13px;
+    max-width: 260px;
+    margin-bottom: 24px;
+  }
+  .hero-cookies-img {
+    width: 280px;
+    right: -20px;
+    opacity: 0.9;
+  }
+  .hero-leaf-deco {
+    width: 75px;
+  }
+  .hero-btn {
+    font-size: 13px;
+    padding: 10px 26px;
+  }
   /*Banner Section End*/
 
   /*Goal Section Start*/
@@ -1537,6 +1729,37 @@ ul {
   /*Navbar Section End*/
 
   /*Banner Section Start*/
+  .hero-section {
+    padding: 40px 0;
+    min-height: auto;
+  }
+  .hero-title {
+    font-size: 24px;
+  }
+  .hero-subtitle {
+    font-size: 12.5px;
+    max-width: 220px;
+    margin-bottom: 20px;
+  }
+  .hero-cookies-img {
+    width: 210px;
+    right: -16px;
+    top: 55%;
+  }
+  .hero-leaf-deco {
+    width: 60px;
+  }
+  .hero-btn {
+    font-size: 12.5px;
+    padding: 9px 22px;
+  }
+  .hero-circle-tl {
+    width: 200px;
+    height: 200px;
+    top: -60px;
+    left: -60px;
+  }
+
   /*Banner Section End*/
 
   /*Goal Section Start*/
@@ -1745,6 +1968,28 @@ ul {
   /*Navbar Section End*/
 
   /*Banner Section Start*/
+  .hero-section {
+    padding: 32px 0;
+  }
+  .hero-title {
+    font-size: 20px;
+  }
+  .hero-subtitle {
+    font-size: 12px;
+    max-width: 180px;
+    margin-bottom: 16px;
+  }
+  .hero-cookies-img {
+    width: 160px;
+    right: -10px;
+  }
+  .hero-leaf-deco {
+    width: 50px;
+  }
+  .hero-btn {
+    font-size: 12px;
+    padding: 8px 18px;
+  }
   /*Banner Section End*/
 
   /*Goal Section Start*/
